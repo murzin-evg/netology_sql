@@ -1,389 +1,163 @@
-INSERT INTO executors (nickname)
-VALUES ('Би-2');
-
-INSERT INTO executors (nickname)
-VALUES ('Ленинград');
-
-INSERT INTO executors (nickname)
-VALUES ('Руки вверх');
-
-INSERT INTO executors (nickname)
-VALUES ('Баста');
-
-INSERT INTO executors (nickname)
-VALUES ('Макс Корж');
-
-INSERT INTO executors (nickname)
-VALUES ('Король и Шут');
-
-INSERT INTO executors (nickname)
-VALUES ('Maroon 5');
-
-INSERT INTO executors (nickname)
-VALUES ('Linkin Park');
-
-INSERT INTO executors (nickname)
-VALUES ('КИНО');
-
-INSERT INTO executors (nickname)
-VALUES ('Земфира');
-
-INSERT INTO executors (nickname)
-VALUES ('The Prodigy');
-
-INSERT INTO genres (genre_name)
-VALUES ('Русский рок');
-
-INSERT INTO genres (genre_name)
-VALUES ('Зарубежный рок');
-
-INSERT INTO genres (genre_name)
-VALUES ('Техно');
-
-INSERT INTO genres (genre_name)
-VALUES ('Зарубежная музыка');
-
-INSERT INTO genres (genre_name)
-VALUES ('Русская поп-музыка');
-
-INSERT INTO genres (genre_name)
-VALUES ('Рок');
-
-INSERT INTO genres (genre_name)
-VALUES ('Реп');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Горизон событий', '2017-09-29');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Би-2', '2000-05-20');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Аврора', '2007-10-20');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Баста 1', '2005-09-05');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Сделай погромче', '2001-05-05');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Жить в кайф', '2018-06-20');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Камнем по голове', '1996-11-15');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Red Pill Blues', '2017-08-23');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Легенда', '1989-01-07');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Meteora', '2003-12-18');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('До свидания...', '2000-04-27');
-
-INSERT INTO albums (album_name, release_date)
-VALUES ('Invaders Must Die', '2009-11-10');
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Группа крови', 239, 9);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Перемен', 295, 9);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Пачка сигарет', 268, 9);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('My bad', 333, 12);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Дом мой', 333, 1);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Вояж', 218, 3);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('ЗОЖ', 142, 3);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Моя игра', 358, 4);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Сансара', 325, 4);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Жить в кайф', 263, 6);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Малый повзрослел', 300, 6);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('П.М.М.Л', 217, 11);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Крошка моя', 250, 5);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Черное солнце', 289, 1);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Лётчик', 351, 1);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Варвара', 301, 2);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Мой друг', 289, 2);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Счастье', 246, 2);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Эй, ухнем!', 165, 3);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Дурак и молния', 114, 7);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Мария', 263, 7);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Lips On You', 216, 8);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Faint', 164, 10);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Numb', 187, 10);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Omen', 216, 12);
-
-INSERT INTO tracks (track_name, duration, album_id)
-VALUES ('Мой рок-н-ролл', 405, 2);
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Иди и смотри', '2010-11-26');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Были времена', '2022-02-03');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Танцуй', '2017-06-20');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Хиты 2016 ', '2016-12-15');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Новогоднее ', '2021-12-01');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Форсаж 9 ', '2021-05-13');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Summer Festival ', '2021-07-15');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Радио ', '2015-09-14');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Это качает! ', '2017-10-08');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Пробежка', '2015-06-01');
-
-INSERT INTO collections (collection_name, release_date)
-VALUES ('Хиты 2019', '2019-06-01');
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (1, 1);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (1, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (2, 1);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (2, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (3, 7);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (4, 9);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (5, 7);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (5, 9);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (6, 1);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (6, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (7, 6);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (8, 4);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (8, 6);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (8, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (9, 1);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (9, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (10, 1);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (10, 8);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (11, 5);
-
-INSERT INTO executors_genres (executor_id, genre_id)
-VALUES (11, 6);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (1, 1);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (2, 1);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (3, 2);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (4, 4);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (5, 3);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (6, 5);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (7, 6);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (8, 7);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (9, 9);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (10, 8);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (11, 10);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (12, 11);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (1, 10);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (4, 1);
-
-INSERT INTO executors_albums (album_id, executor_id)
-VALUES (4, 3);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (1, 10);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (1, 14);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (2, 1);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (2, 2);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (2, 3);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (3, 4);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (3, 11);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (4, 8);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (5, 11);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (5, 5);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (6, 20);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (7, 20);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (8, 4);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (8, 7);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (8, 8);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (8, 9);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (8, 22);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (9, 4);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (9, 21);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (9, 22);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 8);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 9);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 20);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 21);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 22);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (10, 23);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (11, 2);
-
-INSERT INTO collections_tracks (collection_id , track_id)
-VALUES (11, 10);
+INSERT INTO executor (nickname)
+     VALUES                   -- id
+			('Би-2'),         -- 1
+			('Ленинград'),    -- 2
+			('Руки вверх'),   -- 3
+			('Баста'),        -- 4
+			('Макс Корж'),    -- 5
+			('Король и Шут'), -- 6
+			('Maroon 5'),     -- 7
+			('Linkin Park'),  -- 8
+			('КИНО'),         -- 9
+			('Земфира'),      -- 10
+			('The Prodigy');  -- 11
+
+INSERT INTO genre (genre_name)
+     VALUES                         -- id
+			('Русский рок'),        -- 1
+			('Зарубежный рок'),     -- 2
+			('Техно'),              -- 3
+			('Зарубежная музыка'),  -- 4
+			('Русская поп-музыка'), -- 5
+			('Рок'),                -- 6
+			('Реп');                -- 7
+
+INSERT INTO executor_genre (executor_id, genre_id)
+     VALUES          -- id
+			(1,  1), -- 1
+			(1,  6), -- 2
+			(2,  1), -- 3
+			(2,  6), -- 4
+			(3,  5), -- 5
+			(4,  7), -- 6
+			(5,  5), -- 7
+			(5,  7), -- 8
+			(6,  1), -- 9
+			(6,  6), -- 10
+			(7,  4), -- 11
+			(8,  2), -- 12
+			(8,  4), -- 13
+			(8,  6), -- 14
+			(9,  1), -- 15
+			(9,  6), -- 16
+			(10, 1), -- 17
+			(10, 6), -- 18
+			(11, 3), -- 19
+			(11, 4); -- 20
+
+INSERT INTO album (album_name, release_date)
+     VALUES                                      -- id
+			('Горизон событий',   '2017-09-29'), -- 1
+			('Би-2',              '2000-05-20'), -- 2
+			('Аврора',            '2007-10-20'), -- 3
+			('Баста 1',           '2005-09-05'), -- 4
+			('Сделай погромче',   '2001-05-05'), -- 5
+			('Жить в кайф',       '2018-06-20'), -- 6
+			('Камнем по голове',  '1996-11-15'), -- 7
+			('Red Pill Blues',    '2017-08-23'), -- 8
+			('Легенда',           '1989-01-07'), -- 9
+			('Meteora',           '2003-12-18'), -- 10
+			('До свидания...',    '2000-04-27'), -- 11
+			('Invaders Must Die', '2009-11-10'), -- 12
+			('Музыкальный',       '2020-08-08'), -- 13
+			('Весна',             '2019-12-03'); -- 14
+
+INSERT INTO executor_album (executor_id, album_id)
+     VALUES           -- id
+			(1,   1), -- 1
+			(1,   2), -- 2
+			(1,   4), -- 3
+			(2,   3), -- 4
+			(3,   4), -- 5
+			(3,   5), -- 6
+			(3,  14), -- 7
+			(4,   4), -- 8
+			(5,   6), -- 9
+			(5,  14),  -- 10
+			(6,   7), -- 11
+			(7,   8), -- 12
+			(8,  10), -- 13
+			(9,   9), -- 14
+			(10,  1), -- 15
+			(10, 11), -- 16
+			(10, 13), -- 17
+			(11, 12); -- 18
+
+INSERT INTO track (track_name, duration, album_id)
+     VALUES                                -- id
+			('Группа крови',     239,  9), -- 1
+			('Перемен',          295,  9), -- 2
+			('Пачка сигарет',    268,  9), -- 3
+			('My bad',           333, 12), -- 4
+			('Дом мой',          333,  1), -- 5
+			('Вояж',             218,  3), -- 6
+			('ЗОЖ',              142,  3), -- 7
+			('Моя игра',         358,  4), -- 8
+			('Сансара',          325,  4), -- 9
+			('Жить в кайф',      263,  6), -- 10
+			('Малый повзрослел', 300,  6), -- 11
+			('П.М.М.Л',          217, 11), -- 12
+			('Крошка моя',       250,  5), -- 13
+			('Черное солнце',    289,  1), -- 14
+			('Лётчик',           351,  1), -- 15
+			('Варвара',          301,  2), -- 16
+			('Мой друг',         289,  2), -- 17
+			('Счастье',          246,  2), -- 18
+			('Эй, ухнем!',       165,  3), -- 19
+			('Дурак и молния',   114,  7), -- 20
+			('Мария',            263,  7), -- 21
+			('Lips On You',      216,  8), -- 22
+			('Faint',            164, 10), -- 23
+			('Numb',             187, 10), -- 24
+			('Omen',             216, 12), -- 25
+			('Мой рок-н-ролл',   405,  2), -- 26
+			('Мой реп-н-рок',    295, 13), -- 27
+			('Стиляга',          189, 13), -- 28
+			('Год посева',       235, 13), -- 29
+			('А не спеть ли',    421, 14), -- 30
+			('Короткая',         126, 14); -- 31
+
+INSERT INTO collection (collection_name, release_date)
+     VALUES                                     -- id
+			('Иди и смотри',     '2010-11-26'), -- 1
+			('Были времена',     '2022-02-03'), -- 2
+			('Танцуй',           '2017-06-20'), -- 3
+			('Хиты 2016 ',       '2016-12-15'), -- 4
+			('Новогоднее ',      '2021-12-01'), -- 5
+			('Форсаж 9 ',        '2021-05-13'), -- 6
+			('Summer Festival ', '2021-07-15'), -- 7
+			('Радио ',           '2015-09-14'), -- 8
+			('Это качает! ',     '2017-10-08'), -- 9
+			('Пробежка',         '2015-06-01'), -- 10
+			('Хиты 2019',        '2019-06-01'); -- 11
+
+INSERT INTO track_collection (track_id, collection_id)
+     VALUES           -- id
+			(1,  2),  -- 1
+			(2,  2),  -- 2
+			(2, 11),  -- 3
+			(3,  2),  -- 4
+			(4,  3),  -- 5
+			(4,  8),  -- 6
+			(4,  9),  -- 7
+			(5,  5),  -- 8
+			(7,  8),  -- 9
+			(8,  4),  -- 10
+			(8,  8),  -- 11
+			(8, 10),  -- 12
+			(9,  8),  -- 13
+			(9, 10),  -- 14
+			(10,  1), -- 15
+			(10, 11), -- 16
+			(11,  3), -- 17
+			(11,  5), -- 18
+			(14,  1), -- 19
+			(20,  6), -- 20
+			(20,  7), -- 21
+			(20, 10), -- 22
+			(21,  9), -- 23
+			(21, 10), -- 24
+			(22,  8), -- 25
+			(22,  9), -- 26
+			(22, 10), -- 27
+			(23, 10); -- 28
