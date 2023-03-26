@@ -1,2 +1,4 @@
 test.py
-persons_db.py
+client_db_login.txt
+client_db_password.txt
+__pycache__
