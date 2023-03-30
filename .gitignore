@@ -2,3 +2,4 @@ test.py
 client_db_login.txt
 client_db_password.txt
 __pycache__
+personal_data.py
